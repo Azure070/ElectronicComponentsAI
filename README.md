@@ -1,6 +1,6 @@
 # ElectronicComponentsAI
 
- Add short description of project here > 
+ This model identifies and classifies a few basic electronic components including electrolytic capacitors, integrated circuits, leds, potentiometers, resistors, semiconductor diodes, and transistors.
 
 ![add image descrition here](direct image link here)
 
