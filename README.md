@@ -28,7 +28,7 @@ python3 onnx_export.py --model-dir=models/ElectronicsAI
 ```
 7. Run this command to see how this works from
 ```
-imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/resistor/resistor29.jpg resistor.jpg
+imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/resistors/resistor29.jpg resistor.jpg
 ```
 
 
