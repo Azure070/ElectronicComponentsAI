@@ -32,4 +32,4 @@ imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output
 ```
 
 
-View a video explanation here: 
+View a video explanation here: https://youtu.be/aj9YpD-Nznc
