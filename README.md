@@ -15,5 +15,9 @@ This model was created on Jetson Nano and trained on a dataset of electrolytic c
 ```
 ./docker/run.sh
 ```
+4. Setup resNet in the jetson-inference/python/training/classification directory with this command
+```
+python3 onnx_export.py --model-dir=models/ElectronicsAI
+```
 
 View a video explanation here: 
