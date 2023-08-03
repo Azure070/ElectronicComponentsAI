@@ -30,6 +30,10 @@ python3 onnx_export.py --model-dir=models/ElectronicsAI
 ```
 imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/integratedCircuits/IC0.jpg IC.jpg
 ```
+8. To run your own image drop the image in the jetson-inference/python/training/classification/data/test directory. Drop the image in the desired class and change according to this command below
+```
+imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/[Insert Class]/[Insert Image File Name] [Output Name]
+```
 
 
 View a video explanation here: https://youtu.be/aj9YpD-Nznc
