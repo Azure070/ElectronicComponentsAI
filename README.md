@@ -24,7 +24,7 @@ python3 onnx_export.py --model-dir=models/ElectronicsAI
 6. Set the net and dataset arguments with these commands below
 ```
    NET=models/ElectronicAI
-   DATASET=models/ElectronicAI
+   DATASET=data/ElectronicAI
 ```
 7. Run this command to see how this works from
 ```
