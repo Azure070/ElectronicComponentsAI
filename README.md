@@ -4,7 +4,7 @@
 
 ## The Algorithm
 
-This model was created on Jetson Nano and trained on a dataset of electrolytic capacitors, integrated circuits, leds, potentiometers, resistors, semiconductor diodes, and transistors. It uses an imagenet.py program to classify each component
+This retrained ResNet-18 model was created on Jetson Nano and trained on a dataset of electrolytic capacitors, integrated circuits, leds, potentiometers, resistors, semiconductor diodes, and transistors. It uses an imagenet.py program to classify each component
 
 
 ## Running this project
