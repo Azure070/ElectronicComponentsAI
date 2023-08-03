@@ -10,8 +10,9 @@ This model was created on Jetson Nano and trained on a dataset of electrolytic c
 ## Running this project
 
 1. Have the Jetson Inference library and python3 both installed on your Jetson Nano.
-2. Download the model_best.pth.tar from https://drive.google.com/drive/folders/1xtHEz4bTSl7l_4BDBZU-SeldpwhSp84e 
-3. Open docker container from jetson-inference directory
+2. Download the model_best.pth.tar from https://drive.google.com/drive/folders/1xtHEz4bTSl7l_4BDBZU-SeldpwhSp84e?usp=sharing
+3. Download the dataset folder from https://drive.google.com/drive/folders/1v9VgFZ7lR2YJMr9s8AleC5DekoM3OHWK?usp=sharing
+4. Open docker container from jetson-inference directory
 ```
 ./docker/run.sh
 ```
